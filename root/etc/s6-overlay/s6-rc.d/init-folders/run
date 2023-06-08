@@ -1,0 +1,19 @@
+#!/usr/bin/with-contenv bash
+
+if [ ! -d /media/Music ]; then
+  echo "Creating /media/Music"
+  mkdir -p /media/Music
+  chown -R abc:abc /media/Music
+fi
+
+if [ ! -d /media/Downloads ]; then
+  echo "Creating /media/Downloads"
+  mkdir -p /media/Downloads
+  chown -R abc:abc /media/Downloads
+fi
+
+if [ ! -d /share/lidarr/config ]; then
+  echo "Creating /share/lidarr/config"
+  mkdir -p /share/lidarr/config
+  chown -R abc:abc /share/lidarr/config
+fi
