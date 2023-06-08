@@ -21,7 +21,7 @@ comparison to installing any other Hass.io add-on.
 
 ## Configuration
 
-Webui can be found at `<your-ip>:7878`.
+Webui can be found at `<your-ip>:8686`.
 
 
 [repository]: https://github.com/PrimusNZ/hassio-addons

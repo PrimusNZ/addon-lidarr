@@ -17,10 +17,10 @@
     "armhf"
   ],
   "ports": {
-    "7878/tcp": 7878
+    "8686/tcp": 8686
   },
   "ports_description": {
-    "7878/tcp": "web interface"
+    "8686/tcp": "web interface"
   },
   "map": [
     "config:rw",
@@ -28,7 +28,7 @@
     "media:rw",
     "ssl"
   ],
-  "webui": "http://[HOST]:[PORT:7878]",
+  "webui": "http://[HOST]:[PORT:8686]",
   "boot": "auto",
   "options": {
     "PUID": 1001,
